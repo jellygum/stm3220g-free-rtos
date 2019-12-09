@@ -376,7 +376,7 @@
               <MiscControls>--C99</MiscControls>
               <Define>USE_HAL_DRIVER,STM32F207xx,USE_STM322xG_EVAL,</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Inc;..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32F2xx\Include;..\..\..\..\..\..\Drivers\STM32F2xx_HAL_Driver\Inc;..\..\..\..\..\..\Drivers\BSP\STM322xG_EVAL;..\..\..\..\..\..\Drivers\BSP\Components\cs43l22;..\..\..\..\..\..\Utilities\Fonts</IncludePath>
+              <IncludePath>..\Inc;..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32F2xx\Include;..\..\..\..\..\Libraries\STM32F20x_StdPeriph_Driver\Inc;..\..\..\..\..\Utilities\STM32_EVAL\STM3220G_EVAL;..\..\..\..\..\Libraries\BSP\Components\cs43l22;..\..\..\..\..\Utilities\Fonts;..\..\..\..\..\Libraries\BSP\Components</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -433,22 +433,22 @@
             <File>
               <FileName>cs43l22.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\Drivers\BSP\Components\cs43l22\cs43l22.c</FilePath>
+              <FilePath>..\..\..\..\..\Libraries\BSP\Components\cs43l22\cs43l22.c</FilePath>
             </File>
             <File>
               <FileName>ili9320.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\Drivers\BSP\Components\ili9320\ili9320.c</FilePath>
+              <FilePath>..\..\..\..\..\Libraries\BSP\Components\ili9320\ili9320.c</FilePath>
             </File>
             <File>
               <FileName>ili9325.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\Drivers\BSP\Components\ili9325\ili9325.c</FilePath>
+              <FilePath>..\..\..\..\..\Libraries\BSP\Components\ili9325\ili9325.c</FilePath>
             </File>
             <File>
               <FileName>stmpe811.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\Drivers\BSP\Components\stmpe811\stmpe811.c</FilePath>
+              <FilePath>..\..\..\..\..\Libraries\BSP\Components\stmpe811\stmpe811.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -458,22 +458,22 @@
             <File>
               <FileName>stm322xg_eval.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\Drivers\BSP\STM322xG_EVAL\stm322xg_eval.c</FilePath>
+              <FilePath>..\..\..\..\..\Utilities\STM32_EVAL\STM3220G_EVAL\stm322xg_eval.c</FilePath>
             </File>
             <File>
               <FileName>stm322xg_eval_audio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\Drivers\BSP\STM322xG_EVAL\stm322xg_eval_audio.c</FilePath>
+              <FilePath>..\..\..\..\..\Utilities\STM32_EVAL\STM3220G_EVAL\stm322xg_eval_audio.c</FilePath>
             </File>
             <File>
               <FileName>stm322xg_eval_io.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\Drivers\BSP\STM322xG_EVAL\stm322xg_eval_io.c</FilePath>
+              <FilePath>..\..\..\..\..\Utilities\STM32_EVAL\STM3220G_EVAL\stm322xg_eval_io.c</FilePath>
             </File>
             <File>
               <FileName>stm322xg_eval_lcd.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\Drivers\BSP\STM322xG_EVAL\stm322xg_eval_lcd.c</FilePath>
+              <FilePath>..\..\..\..\..\Utilities\STM32_EVAL\STM3220G_EVAL\stm322xg_eval_lcd.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -493,67 +493,67 @@
             <File>
               <FileName>stm32f2xx_hal.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal.c</FilePath>
+              <FilePath>..\..\..\..\..\Libraries\STM32F20x_StdPeriph_Driver\Src\stm32f2xx_hal.c</FilePath>
             </File>
             <File>
               <FileName>stm32f2xx_hal_cortex.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_cortex.c</FilePath>
+              <FilePath>..\..\..\..\..\Libraries\STM32F20x_StdPeriph_Driver\Src\stm32f2xx_hal_cortex.c</FilePath>
             </File>
             <File>
               <FileName>stm32f2xx_hal_dma.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_dma.c</FilePath>
+              <FilePath>..\..\..\..\..\Libraries\STM32F20x_StdPeriph_Driver\Src\stm32f2xx_hal_dma.c</FilePath>
             </File>
             <File>
               <FileName>stm32f2xx_hal_flash.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_flash.c</FilePath>
+              <FilePath>..\..\..\..\..\Libraries\STM32F20x_StdPeriph_Driver\Src\stm32f2xx_hal_flash.c</FilePath>
             </File>
             <File>
               <FileName>stm32f2xx_hal_flash_ex.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_flash_ex.c</FilePath>
+              <FilePath>..\..\..\..\..\Libraries\STM32F20x_StdPeriph_Driver\Src\stm32f2xx_hal_flash_ex.c</FilePath>
             </File>
             <File>
               <FileName>stm32f2xx_hal_gpio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_gpio.c</FilePath>
+              <FilePath>..\..\..\..\..\Libraries\STM32F20x_StdPeriph_Driver\Src\stm32f2xx_hal_gpio.c</FilePath>
             </File>
             <File>
               <FileName>stm32f2xx_hal_i2c.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_i2c.c</FilePath>
+              <FilePath>..\..\..\..\..\Libraries\STM32F20x_StdPeriph_Driver\Src\stm32f2xx_hal_i2c.c</FilePath>
             </File>
             <File>
               <FileName>stm32f2xx_hal_i2s.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_i2s.c</FilePath>
+              <FilePath>..\..\..\..\..\Libraries\STM32F20x_StdPeriph_Driver\Src\stm32f2xx_hal_i2s.c</FilePath>
             </File>
             <File>
               <FileName>stm32f2xx_hal_rcc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_rcc.c</FilePath>
+              <FilePath>..\..\..\..\..\Libraries\STM32F20x_StdPeriph_Driver\Src\stm32f2xx_hal_rcc.c</FilePath>
             </File>
             <File>
               <FileName>stm32f2xx_hal_rcc_ex.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_rcc_ex.c</FilePath>
+              <FilePath>..\..\..\..\..\Libraries\STM32F20x_StdPeriph_Driver\Src\stm32f2xx_hal_rcc_ex.c</FilePath>
             </File>
             <File>
               <FileName>stm32f2xx_hal_sram.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_sram.c</FilePath>
+              <FilePath>..\..\..\..\..\Libraries\STM32F20x_StdPeriph_Driver\Src\stm32f2xx_hal_sram.c</FilePath>
             </File>
             <File>
               <FileName>stm32f2xx_hal_uart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_uart.c</FilePath>
+              <FilePath>..\..\..\..\..\Libraries\STM32F20x_StdPeriph_Driver\Src\stm32f2xx_hal_uart.c</FilePath>
             </File>
             <File>
               <FileName>stm32f2xx_ll_fsmc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_ll_fsmc.c</FilePath>
+              <FilePath>..\..\..\..\..\Libraries\STM32F20x_StdPeriph_Driver\Src\stm32f2xx_ll_fsmc.c</FilePath>
             </File>
           </Files>
         </Group>
